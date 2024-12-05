@@ -5,7 +5,6 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 
 function firstLetter (names){
-    // Invoca la funzione qui e stampa il risultato in console
     const letter=[];
     for (let i= 0; i < names.length; i++){
         letter.push(names[i][0])
@@ -14,10 +13,11 @@ function firstLetter (names){
     
 }
 
-//Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+// Invoca la funzione qui e stampa il risultato in console
 
 const letter= firstLetter(names)
 console.log(letter)
 
+//Risultato atteso: ["A", "L", "M", "A", "G", "A"]
 
 
